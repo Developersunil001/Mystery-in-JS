@@ -1,3 +1,4 @@
+// Part - 1
 // Declare your name as a string and print its length in js 
 
 let Name = 'sunil';
