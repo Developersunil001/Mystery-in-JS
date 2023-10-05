@@ -100,12 +100,71 @@
 
 // Practice Q.
 // A "good string" is a string starts with the letter "a" & has a length > 3.
-// write a programs to find if a string good or bad 
+// write a programs to find if a string good or bad
 
-let str = 'apple';
-if (str[0] === 'a' && str.length > 3) {
-    console.log('string is good');
+// let str = 'apple';
+// if (str[0] === 'a' && str.length > 3) {
+//     console.log('string is good');
+// }
+// else {
+//     console.log('string is bad');
+// }
+
+// Truthy and False Value
+
+// Falsy Values => false ,0,On (BigInt value) , " " , Empty String , null , undefined , NaN
+// Truthy Values => Everything Else 
+
+//zero
+if(0){
+    console.log(`value is true`);
+}else{
+    console.log(`value is false`);  
 }
-else {
-    console.log('string is bad');
+
+// null 
+if(null){
+    console.log(`value is true`);
+}else{
+    console.log(`value is false`);  
+}
+
+//undefiend
+if(undefined){
+    console.log(`value is defiend`);
+}else{
+    console.log(`value is undefiend`);  
+}
+
+//not a number
+if(NaN){
+    console.log(`value is true`);
+}else{
+    console.log(`value is false`);  
+}
+
+// Empty string
+if(""){
+    console.log(`value is true`);
+}else{
+    console.log(`value is false`);  
+}
+
+
+let str = "";
+if(str === ""){
+    console.log("string is empty");
+}
+else{
+ console.log("string is filled");
+}
+
+// Truthy Value
+
+let num = 10;
+if(num){
+    console.log("value is true");
+}
+else{
+    console.log("value is false");
 }
