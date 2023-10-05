@@ -50,3 +50,4 @@ switch(day){
     console.log("weekend")
 
 }
+
