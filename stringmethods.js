@@ -1,4 +1,5 @@
 // Methods actions that can be performed on objects
+// Strings are immutable and if we want to do mutable it create new string 
 // format => stringName.abc();
 
 //  Trim methods => Trim whitespaces from both ends of string & return a new one
@@ -42,7 +43,7 @@ let str = 'IloveCoding';
 console.log(str.slice(4)); // it takes str.length if you give randomlly index
 
 let str1 = "IloveIndia";
-console.log(str1.slice(1,5));
+console.log(str1.slice(1, 5));
 
 let str2 = "IloveIndia";
 console.log(str1.slice(-4)); // str2.length(length-num) => 10-6 => IloveI
@@ -50,7 +51,7 @@ console.log(str1.slice(-4)); // str2.length(length-num) => 10-6 => IloveI
 // Replace => searching a value in string and return a new string with value repalced 
 
 let name = "sunil";
-console.log(name.replace("sunil" , "aman"));
+console.log(name.replace("sunil", "aman"));
 
 // Repeat => return a string with the number of copies of the string
 
