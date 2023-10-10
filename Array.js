@@ -22,7 +22,7 @@ console.log(fruits);
 
 // Arrays methods
 
-// push => add to end
+push => add to end
 let alpha = ['a', 'b', 'c'];
 alpha.push('d');
 console.log(alpha);
@@ -57,7 +57,7 @@ console.log(months);
 let primary = ['red', 'green', 'orange'];
 console.log(primary.indexOf("dskd"));
 
-// include => search for a value it give true when value is present anf false when absent
+// include => search for a value it give true when value is present and false when absent
 
 let alpha1 = ['a', 'b', 'c'];
 console.log(alpha1.includes('v'));
@@ -89,17 +89,42 @@ console.log(colorss.slice(-3));
 // splice => (start,deletecount,item0 ... itemN)
 
 let cars = ['a', 'b', 'c', 'd'];
-console.log(cars.splice(1, 1 , 'z' , 'l'));
+console.log(cars.splice(1, 1, 'z', 'l'));
 console.log(cars);
 
 // Sort => its sorts an array
 // --------> ascending order
 // <-------- descending order
 
-let chars = ['a','l','z','x'];
+let chars = ['a', 'l', 'z', 'x'];
 console.log(chars.sort());
 
-let chars2 = [100,800,788,55,788];
+let chars2 = [100, 800, 788, 55, 788];
 console.log(chars2.sort());
 
+// Array References => address in memory
+
+let arr1 = 10;
+let arr2 = 10;
+
+if (arr1 === arr2) {
+    console.log(true);
+}
+else {
+    console.log(false);
+}
+
+// constant array
+
+const arr = ['a', 'b', 'c'];
+console.log(arr.pop());
+console.log(arr);
+
+// Nested array => arrays tO arrays
+
+let nums = [[1, 2], [4, 5], [7, 8], [3, 5]]
+console.log(nums[0][1]);
+
+let nums1 = [[1, 2, 5], [4, 5], [7, 8], [3, 5]]
+console.log(nums1[0].length);
 
