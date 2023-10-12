@@ -70,13 +70,46 @@ const favMovie = 'jawan';
 
 let guess = prompt(`Enter youe fav movie`);
 
-while ((guess != favMovie) && (guess != 'quiet')) {
+while (guess != favMovie) {
+    if (guess == 'quit') {
+        console.log("You have Quiet the Game");
+        break;
+    }
     guess = prompt(`wrong guess.. pls try again`);
 }
 
 if (guess == favMovie) {
-    console.log(`congrats your guessed correct`);
+    alert(`congrats your guessed correct`);
 }
-else {
-    console.log(`You quiet the game`);
+
+
+// Break Keyword
+
+let x = 1;
+
+while (x <= 10) {
+    if (x == 5) {
+        break;
+    }
+    console.log(x);
+    x++;
 }
+
+// Loops in array
+
+let fruits1 = ['mango', 'apple', 'pineapple', 'banana'];
+for (let i = 0; i < fruits1.length; i++) {
+    console.log(i, fruits1[i]);
+}
+
+// reverse in array
+
+let fruits2 = ['mango', 'apple', 'pineapple', 'banana'];
+fruits2.push('naspati');
+
+for (let i = fruits2.length - 1; i >= 0; i--) {
+    console.log(i, fruits2[i]);
+}
+
+// nested loop 
+
