@@ -1,4 +1,10 @@
 
-// for(let i=2; i<=10; i=i+2){
-//     console.log(i);
+// let num1 = 12345;
+// // let copy = num;
+// let count = 0;
+
+// while (num1 > 0) {
+//     count++
+//     num1 = Math.floor(num / 10);
 // }
+// console.log(count)
