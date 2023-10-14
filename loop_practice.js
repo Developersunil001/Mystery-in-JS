@@ -32,10 +32,10 @@ let num2 = 123;
 let sum = 0;
 let rem = 0;
 
-while(num2>0){
+while (num2 > 0) {
     rem = num2 % 10;
     sum = sum + rem;
-    num2 = Math.floor(num2/10);
+    num2 = Math.floor(num2 / 10);
 }
 console.log(sum);
 
@@ -48,13 +48,13 @@ console.log(sum);
 // 3! (factorial of 3) = 1x2x3 = 6
 // 0! Is always 1
 
-let n = 5;
-let f = 1;
+// let n = 5;
+// let f = 1;
 
-for(let i=1;i<=n;i++){
-    f = f*i;
-}
-console.log(f);
+// for(let i=1;i<=n;i++){
+//     f = f*i;
+// }
+// console.log(f);
 
 // Qs5. Find the largest number in an array with only positive numbers
 
@@ -62,12 +62,12 @@ console.log(f);
 // let largest = Math.max(...arr);
 // console.log(largest);
 
-let arr1 = [10, 20, 50, 40];
-let largest = 0;
+// let arr1 = [10, 20, 50, 40];
+// let largest = 0;
 
-for (let i = 0; i < arr1.length; i++) {
-    if (largest < arr1[i]) {
-        largest = arr1[i]
-    }
-}
-console.log(`The largest value is ${largest}`);
+// for (let i = 0; i < arr1.length; i++) {
+//     if (largest < arr1[i]) {
+//         largest = arr1[i]
+//     }
+// }
+// console.log(`The largest value is ${largest}`);
