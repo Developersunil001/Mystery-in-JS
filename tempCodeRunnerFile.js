@@ -1,10 +1,5 @@
+let calc = Math.floor(Math.random() * 100) + 1;
+// console.log(calc);
 
-// let num1 = 12345;
-// // let copy = num;
-// let count = 0;
-
-// while (num1 > 0) {
-//     count++
-//     num1 = Math.floor(num / 10);
-// }
-// console.log(count)
+// let calc1 = Math.floor(Math.random() * 5) + 1;
+// console.log(calc1);
