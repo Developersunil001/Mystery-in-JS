@@ -1,12 +1,12 @@
 // Gernate a random no. between 1 to 100
-let calc = Math.floor(Math.random() * 100) + 1;
-console.log(calc);
+// let calc = Math.floor(Math.random() * 100) + 1;
+// console.log(calc);
 
-let calc1 = Math.floor(Math.random() * 5) + 1;
-console.log(calc1);
+// let calc1 = Math.floor(Math.random() * 5) + 1;
+// console.log(calc1);
 
-let calc2 = Math.floor(Math.random() * 5) + 21;
-console.log(calc2);
+// let calc2 = Math.floor(Math.random() * 5) + 21;
+// console.log(calc2);
 
 // Guessin Game => User enter a max number and then tries to guess a rondom generated no. between 10 to max
 
@@ -34,29 +34,29 @@ while (true) {
 // Qs1. Create a program that generates a random number representing a dice roll.
 //[The number should be between 1 and 6].
 
-const game = (Math.floor(Math.random() * 6)) + 1;
-console.log(game);
+// const game = (Math.floor(Math.random() * 6)) + 1;
+// console.log(game);
 
 //Qs2. Create an object representing a car that stores the following properties for the
 //car: name, model, color.
 //Print the car’s name.
 
-let car = {
-    name: 'BMW',
-    Model: 2023,
-    Color: 'Green'
-}
-console.log(car.name);
+// let car = {
+//     name: 'BMW',
+//     Model: 2023,
+//     Color: 'Green'
+// }
+// console.log(car.name);
 
 //Qs3. Create an object Person with their name, age and city.
 //Edit their city’s original value to change it to “New York”.
 //Add a new property country and set it to the United States
 
-let person = {
-    name: 'Sunil',
-    Agr: 25,
-    City: "Bhopal"
-}
-console.log(person.City = 'New York');
-console.log(person.Country = "United States");
-console.log(person);
+// let person = {
+//     name: 'Sunil',
+//     Agr: 25,
+//     City: "Bhopal"
+// }
+// console.log(person.City = 'New York');
+// console.log(person.Country = "United States");
+// console.log(person);
