@@ -16,6 +16,13 @@
 // 3) classList.contains() => to check if class exist
 // 4) classList.toggle() => to toggle between Add and Remove
 
+// Navigation on page
+// Adding Elements => document.createElement('p')
+// appendChild(element)
+// append(element) / string/text(last)
+// prepend(element) /first(starting)
+// insertAdjacent(where,element)
 
-
-
+// Removing Elements
+// removeChild(element)
+// remove(element)
