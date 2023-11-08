@@ -26,3 +26,16 @@
 // Removing Elements
 // removeChild(element)
 // remove(element)
+
+// DOM Events => events are signals that something has occured (user inputs/actions)
+// onClick(when an element is clicked)
+// onmouseenter(when mouse enters an element)
+// addEventListener(event,callback)
+// this in event listener => when 'this' is used in a callback of event 
+// handler of somethinf it refer to that something
+
+// Events 
+// keydown
+// keyup
+// change 
+// input 
