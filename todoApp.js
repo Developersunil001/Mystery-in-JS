@@ -26,7 +26,6 @@ while (true) {
         console.log("deleted");
     }
     
-
 }
 
 
